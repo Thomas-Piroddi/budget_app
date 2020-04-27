@@ -36,6 +36,10 @@ def create_new_account
     end
     saving = income_float - expenditure_float
     puts "Your weekly deficit/surplus was #{saving}"
+
+    json_hash = { font_size: 10, font_family: "Arial" }
+    hash = {name: Thomas, saving: 1,000,000}
+    # insert into json
     break
   rescue ArgumentError => e
     puts "#{e.message}"
@@ -70,6 +74,7 @@ def view_history()
   file = File.read('filehistory.json')
   data_array=JSON.parse(file)
   data_array.each do |element|
+    puts element
   end
 end
 
