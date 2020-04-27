@@ -15,11 +15,11 @@
 
 ## Feature 1: View budget history 
 
-The user will be able to, provided they've used the application before, see their budget history. They will be able to see the income and expenditure of previous weeks along with their accompanied dates. These past results will be stored in a JSON file, saved as previousbudget.JSON *(,)* ----- *(class.rb, line 18)*
+The user will be able to, provided they've used the application before, see their budget history. They will be able to see the income and expenditure of previous weeks along with their accompanied dates. These past results will be stored in a JSON file, saved as previousbudget.JSON
 
-To display these features the program will parse information from previousbudget.JSON, converting these to a variable. This is then looped through, displaying them as neatly-formatted strings. *(,)*) -----*(index.rb, line 138)*
+To display these features the program will parse information from previousbudget.JSON, converting these to a variable. This is then looped through, displaying them as neatly-formatted strings.
 
-If these Json files are either corrupted or empty they will be re-initialized for use. *(,)* ------ *(class.rb, lines 20 & 37)*
+If these Json files are either corrupted or empty they will be re-initialized for use.
 
 ## Feature 2: Operational information
 
@@ -34,10 +34,6 @@ There's an if statement located in weekly_budget_planner.rb that asks if ARGV is
 
 This feature will print two questions to the screen, asking the user for their weekly income and weekly expenditure. The application will recieve the user's input and pass it through a loop to ensure the input was valid. As the questions can only be answered with a numerical response, anything other than a number will print a simple error message for the user and ask for the question to be answered again.
 
-
-## Feature 4: The user can calculate their goal trajectory. ------------COME BACK TO DIS ONE 
-
-very simple feature-uses x, y and z to calc user input = $, figure out weekly saving, then divide by 7 to get days, then figure out how many days of saving till you reach your goal. ez gg go next pepega kappa clap
 
 ### User Interaction and Experience
 
@@ -66,21 +62,6 @@ The error message for incorrectly entered input will remain consistent throughou
     "Sorry, but the application does not recognise that answer as a valid number. Please enter a new number without any accompanying symbols or characters."
 
 Once the user enters a valid number the response will be saved and the next question will be printed to the screen. This if/elsif/else statement will continually loop until every question has been answered correctly.
-
-
-This is the end of the application.  ??????????????????????????? <==== not the end of app
-
-COME BACK TO THIS  WITH HOW TO USE THE GOAL OPTION ALONG WITH VIEWING THEIR HISTORY.
-
-
-
-#### _Error Handling - Backup Data Storage & Empty-Input checks_
-- All input fields outside of the quiz section require a text input - If none is found, the application will loop back and request again.
-### User Interaction and Experience
-
-
-test
-
 
 
 ## Status update 1

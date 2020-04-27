@@ -14,6 +14,6 @@ puts "There is also an option to enter a new weekly budget, which will run you t
 puts ""
 puts "The final option will be to exit the application, which will quit the terminal. If you wish to re-use the application you will have to run it from the terminal again."
 puts ""
-puts "The system has the following required: 'colorize', 'argv', 'json'."
+puts "The system has the following required: 'colorize', 'argv', 'json'. If not already installed, they can be installed by typingthe following into your terminal; gem install json, gem install colorize, gem install argv."
 puts ""
 puts "To run the application simply type 'ruby budget_planner.rb' into the terminal. There is also an executable script which allows the application to be run on your local terminal."
