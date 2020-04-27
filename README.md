@@ -65,18 +65,21 @@ Once the user enters a valid number the response will be saved and the next ques
 
 
 ### Implementation plan
+
 ![Plan](./docs/Implementation_plan.png)
 
 
 ### Diagram
+
 ![Diagram](./docs/Good_diagram.png)
 
 ### Project management platform
 
 ## Day 1
+
 ![Trello 1](./docs/23:4:2020_Trello.png)
 
-![Trello 2](./docs/23:4:2020_Trello(night.png)
+![Trello 2](./docs/23:4:2020_Trellonight.png)
 
 ## Day 2
 
