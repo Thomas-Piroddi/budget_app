@@ -65,7 +65,8 @@ Once the user enters a valid number the response will be saved and the next ques
 
 
 ### Diagram
-![](./docs/implementation_plan.png)
+![Diagram](./docs/Implementation_plan.png)
+
 
 ### Status updates
 
