@@ -1,21 +1,19 @@
-# FAQ file
-
-# Hello and welcome to the help file. This information aims to help you operate the application to its' maximum potential. The program is very simple and the initial questions will only require a numerical input without any symbols or characters.
-
-# Errors will be handled by the program in the form of ErrorMessage prompts, and these will only appear when the user enters an invalid input. These are usually in the form of non-numerical inputs. The program will inform the user that their answer was invalid, and will prompt them to answer the question once again. This loop will continue until until the user input is valid.
-
-# The program will initally take your weekly income. This is for the purpose of calculating how much money you're brin ging in each week. The program will then take your expenditure to calculate whether you were in a surplus or a deficit that week. 
-
-# Provided you've never used the application before, it will then direct you to the main menu (It is important to note that if you've previously used the application and there is a file present, you can go straight to the main menu). From here you can choose to create a goal trajectory. That is to enter the price of a certain goal you had in mind (for example, a $1000 phone). If you were in a surplus that week, the program will take your figure and print out the amount of full days (rounded up) that it will take to save up for your goal.
-
-# There is a view budget history option that allows you to check previous budget entries along with their time slot entries.
-
-# There is also an option to enter a new weekly budget, which will run you through the two inital questions again. This can be done if you wanted to enter a new set of data or create a hypothetical saving plan.
-
-# The final option will be to exit the application, which will quit the terminal. If you wish to re-use the application you will have to run it from the terminal again."
-
-# You must include:
-# - steps to install the application
-# - any dependencies required by the application to operate
-# - any system/hardware requirements
-# - a written explanation of the different features of the application
+puts "Help file"
+puts ""
+puts "Hello and welcome to the help file. This information aims to help you operate the application to its' maximum potential. The program is very simple and the initial questions will only require a numerical input without any symbols or characters."
+puts ""
+puts "Errors will be handled by the program in the form of ErrorMessage prompts, and these will only appear when the user enters an invalid input. These are usually in the form of non-numerical inputs. The program will inform the user that their answer was invalid, and will prompt them to answer the question once again. This loop will continue until until the user input is valid."
+puts ""
+puts "The program will initally take your weekly income. This is for the purpose of calculating how much money you're brin ging in each week. The program will then take your expenditure to calculate whether you were in a surplus or a deficit that week."
+puts ""
+puts "Provided you've never used the application before, it will then direct you to the main menu (It is important to note that if you've previously used the application and there is a file present, you can go straight to the main menu). From here you can choose to create a goal trajectory. That is to enter the price of a certain goal you had in mind (for example, a $1000 phone). If you were in a surplus that week, the program will take your figure and print out the amount of full days (rounded up) that it will take to save up for your goal."
+puts ""
+puts "There is a view budget history option that allows you to check previous budget entries along with their time slot entries."
+puts ""
+puts "There is also an option to enter a new weekly budget, which will run you through the two inital questions again. This can be done if you wanted to enter a new set of data or create a hypothetical saving plan."
+puts ""
+puts "The final option will be to exit the application, which will quit the terminal. If you wish to re-use the application you will have to run it from the terminal again."
+puts ""
+puts "The system has the following required: 'colorize', 'argv', 'json'."
+puts ""
+puts "To run the application simply type 'ruby budget_planner.rb' into the terminal. There is also an executable script which allows the application to be run on your local terminal."

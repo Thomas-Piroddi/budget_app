@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-
+require 'argv'
 require 'colorize'
 require 'json' #gem install json
 
