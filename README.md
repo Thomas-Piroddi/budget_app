@@ -4,6 +4,8 @@
 
 ---
 
+[GitHub](https://github.com/Thomas-Piroddi/budget_app)
+
 ### Statement of Purpose and Scope
 
 This app is designed to help the user plan a weekly budget and monitor their savings. The program will receive user input of their monetary income along with how much they’re spending per week on categorised necessities and wants. The program will then output strategies and solutions that aim to help the user sort out their spendings and increase saving where needed.
