@@ -85,9 +85,11 @@ test
 
 ## Status update 1
 
-This status update really bugged me because I actually felt like my code regressed heavily. I was probably far too ambitious with my original concept and when I tried to implement all the questions (about 7 different expenditure questions) I realised that this would take me far more than a week to perfect and keep tidy. Once I simplified the concept and kept the code reasonably black and white I felt like I made reasonable progress in terms of the quantity I was writing each day. This was very encouraging as it allowed me to write com fortably instead of being over-awed with errors and mistakes within my code.
+This status update really bugged me because I actually felt like my code regressed heavily. I was probably far too ambitious with my original concept and when I tried to implement all the questions (about 7 different expenditure questions) I realised that this would take me far more than a week to perfect and keep tidy. I also grossly under-estimated how much focused and quality work would go into the program, as I found myself unsure of what feature to start with. Once I simplified the concept and kept the code reasonably black and white I felt like I made reasonable progress in terms of the quantity I was writing each day. This was very encouraging as it allowed me to write comfortably instead of being over-awed with errors and mistakes within my code.
 
 
-## first status update- change from multi-expenditure options to just single expenditure options. grossly underestimated how much work would go into the coding and displaying of a multi-faceted data entrry to be considered in the application. re-writing the code to make it much more clean and specific.
+## Status update 2
 
-## second status update-write 100 words prior to testing nd 100 words post testing
+Prior to testing: This was a pretty obvious outcome for me that the code was going to have a multitude of errors. Basically every feature had a small hiccup or indentation error that needed ironing out. I found that sitting with a pen and paper and hand writing the code helped immensely, and fixed about half of these instantly. I felt that this is because I was logically walking through each line and realising the simple errors that I'd made and just getting back to the basics we'd covered the last few weeks. This also helped me keep the code DRY. I was unaware of how difficult writing the JSON component of my code would be as well, after lots of trial and error and reading online it still took me some time to get the hang of it.
+
+Post test:
