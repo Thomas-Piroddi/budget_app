@@ -59,7 +59,7 @@ Once this is printed the user will be prompted to press enter which will display
 
 Once the user enters this number they can press enter and the application will pass them their next question.
 
-Like with any application, there will be confusion amongst the users and in turn there will be incorrectly entered answers. As the user can freely type any characters into the termonal, and if/elsif/else statement has been included to ensure the corret answer is entered. The if and elsif statements will correspond with input that is valid. As it is a financial budgeter it is important to note that 0, as in $0, is a valid answer to the questions. Any input that contains any character other than a number will be deemed invalid and handled by the else statement, which will print a statement detailed that the answer was invalid and that they need to enter a number that corresponds accordingly to the question. The previous question will then be displayed again and the user will have the opportunity to re-enter an answer.
+Like with any application, there will be confusion amongst the users and in turn there will be incorrectly entered answers. As the user can freely type any characters into the termonal, and if/elsif/else statement has been included to ensure the corret answer is entered. The if and elsif statements will correspond with input that is valid. It is important to note that 0, as in $0, is not a valid answer to the questions. Any input that contains any character other than a number will be deemed invalid and handled by the else statement, which will print a statement detailed that the answer was invalid and that they need to enter a number that corresponds accordingly to the question. The previous question will then be displayed again and the user will have the opportunity to re-enter an answer.
 
 The error message for incorrectly entered input will remain consistent throughout the application, and is displayed below:
 
@@ -83,27 +83,9 @@ test
 
 
 
+## Status update 1
 
-
-FAQ file
-
-Hello and welcome to the help file. This information aims to help you operate the application to its' maximum potential. The program is very simple and the initial questions will only require a numerical input without any symbols or characters.
-
-Errors will be handled by the program in the form of ErrorMessage prompts, and these will only appear when the user enters an invalid input. These are usually in the form of non-numerical inputs. The program will inform the user that their answer was invalid, and will prompt them to answer the question once again. This loop will continue until until the user input is valid.
-
-The program will initally take your weekly income. This is for the purpose of calculating how much money you're brin ging in each week. The program will then take your expenditure to calculate whether you were in a surplus or a deficit that week. 
-
-Provided you've never used the application before, it will then direct you to the main menu (It is important to note that if you've previously used the application and there is a file present, you can go straight to the main menu). From here you can choose to create a goal trajectory. That is to enter the price of a certain goal you had in mind (for example, a $1000 phone). If you were in a surplus that week, the program will take your figure and print out the amount of full days (rounded up) that it will take to save up for your goal.
-
-There is a view budget history option that allows you to check previous budget entries along with their time slot entries.
-
-There is also an option to enter a new weekly budget, which will run you through the two inital questions again. This can be done if you wanted to enter a new set of data or create a hypothetical saving plan.
-
-The final option will be to exit the application, which will quit the terminal. If you wish to re-use the application you will have to run it from the terminal again.
-
-
-
-
+This status update really bugged me because I actually felt like my code regressed heavily. I was probably far too ambitious with my original concept and when I tried to implement all the questions (about 7 different expenditure questions) I realised that this would take me far more than a week to perfect and keep tidy. Once I simplified the concept and kept the code reasonably black and white I felt like I made reasonable progress in terms of the quantity I was writing each day. This was very encouraging as it allowed me to write com fortably instead of being over-awed with errors and mistakes within my code.
 
 
 ## first status update- change from multi-expenditure options to just single expenditure options. grossly underestimated how much work would go into the coding and displaying of a multi-faceted data entrry to be considered in the application. re-writing the code to make it much more clean and specific.
