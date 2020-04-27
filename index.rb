@@ -6,6 +6,7 @@ while true
   puts
   puts "There are four options within this menu. Please select one of the following:"
   puts
+  sleep(1)
   puts "-New data entry- To enter a new budget entry please type 'new' or 'n' into the terminal"
   puts
   puts "-View goal trajectory- To calculate the amount of time to reach a savings goal please type 'goal' or 'g' into the terminal"
@@ -14,7 +15,6 @@ while true
   puts
   puts "Enter 'E' or 'exit' at any time to quit the application."
   print    "● "
-  sleep(5)
 
   menu_input = gets.chomp.downcase
 
@@ -42,24 +42,36 @@ while true
       end
     end
 
+    
   elsif menu_input == 'g' || menu_input == 'goal'
-    puts "How much does the goal you're saving for cost?"
-    cost = gets.chomp
-    cost_float = cost.to_f
-    puts "How much was your weekly saving?"
-    saving = gets.chomp
-    saving_float = saving.to_f
-    if cost_float == 0.0 || saving_float == 0.0
-      goal = (cost_float / (saving_float / 7.0)).to_i
-      print "It will take you #{goal} days to save for this goal!"
-      sleep(3)
+
+    while true
+      puts
+      puts "How much does the goal you're saving for cost?"
+      cost = gets.chomp
+      cost_float = cost.to_f
+      puts "How much was your weekly saving?"
+      saving = gets.chomp
+      saving_float = saving.to_f
+
+      begin
+        if cost_float == 0.0 || saving_float == 0.0
+          system 'clear'
+          raise ArgumentError, '"Please enter a numerical value only. Try again!"'
+        end
+        goal = (cost_float / (saving_float / 7.0)).to_i
+        print "It will take you #{goal} days to save for this goal!"
+        break
+      rescue ArgumentError => e
+        puts "#{e.message}"
+      end
     end
-    next
 
   elsif menu_input == 'v' || menu_input == 'view'
     puts "boog"
+  
 
-  else menu_input == 'e' || menu_input == 'exit'
+  elsif menu_input == 'e' || menu_input == 'exit'
     exit
   end
 end
