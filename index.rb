@@ -21,7 +21,28 @@ def print_welcome()
   print    "● ".colorize(:color => :red)
 end
 
-def create_new_entry()
+def create_new_account
+  puts "Enter your weekly income"
+  income = gets.chomp()
+  income_float = income.to_f
+  puts "Enter your weekly expenditure"
+  expenditure = gets.chomp()
+  expenditure_float = expenditure.to_f
+
+  begin
+    if  income_float == 0.0 || expenditure_float == 0.0
+      system 'clear'
+      raise ArgumentError, '"Please enter a numerical value only. Try again!"'
+    end
+    saving = income_float - expenditure_float
+    puts "Your weekly deficit/surplus was #{saving}"
+    break
+  rescue ArgumentError => e
+    puts "#{e.message}"
+  end
+end
+
+def create_new_entry
   while true
     puts
     puts "Enter your weekly income"
@@ -49,7 +70,6 @@ def view_history()
   file = File.read('filehistory.json')
   data_array=JSON.parse(file)
   data_array.each do |element|
-    puts element['name']
   end
 end
 
@@ -79,7 +99,7 @@ end
 
 def login()
   puts "Welcome to the budgeting planner application. What is your name"
-  name = gets.chomp
+  name = STDIN.gets.chomp
   file = File.read('filehistory.json')
   data_array=JSON.parse(file)
   data_array.each do |element|
@@ -91,23 +111,28 @@ def login()
   return false
 end
 #=======================
-logged_in = login()
-puts logged_in
 while true
-  print_welcome()
+  logged_in = login()
+  puts logged_in
 
-  menu_input = gets.chomp.downcase
+  if logged_in
+    print_welcome()
 
-  if menu_input == 'n' || menu_input == 'new'
-    create_new_entry()
-    
-  elsif menu_input == 'g' || menu_input == 'goal'
-    calculate_goal()
+    menu_input = gets.chomp.downcase
 
-  elsif menu_input == 'v' || menu_input == 'view'
-    view_history()
+    if menu_input == 'n' || menu_input == 'new'
+      create_new_entry()
+      
+    elsif menu_input == 'g' || menu_input == 'goal'
+      calculate_goal()
 
-  elsif menu_input == 'e' || menu_input == 'exit'
-    exit
+    elsif menu_input == 'v' || menu_input == 'view'
+      view_history()
+
+    elsif menu_input == 'e' || menu_input == 'exit'
+      exit
+    end
+  else
+    create_new_account()
   end
 end
