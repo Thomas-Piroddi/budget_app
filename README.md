@@ -65,7 +65,7 @@ Once the user enters a valid number the response will be saved and the next ques
 
 
 ### Implementation plan
-![Plan](./docs/implementation_plan.png)
+![Plan](./docs/Implementation_plan.png)
 
 
 ### Diagram
@@ -84,7 +84,7 @@ Once the user enters a valid number the response will be saved and the next ques
 
 ## Day 3
 
-![Trello 4](./docs/26:4:2020_Trello.png)
+![Trello 4](./docs/26:4:2020_trello.png)
 
 ## Day 4
 
