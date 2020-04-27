@@ -74,7 +74,7 @@ This status update really bugged me because I actually felt like my code regress
 
 Prior to testing: This was a pretty obvious outcome for me that the code was going to have a multitude of errors. Basically every feature had a small hiccup or indentation error that needed ironing out. I found that sitting with a pen and paper and hand writing the code helped immensely, and fixed about half of these instantly. I felt that this is because I was logically walking through each line and realising the simple errors that I'd made and just getting back to the basics we'd covered the last few weeks. This also helped me keep the code DRY. I was unaware of how difficult writing the JSON component of my code would be as well, after lots of trial and error and reading online it still took me some time to get the hang of it.
 
-Post test:
+Post test: I was happy with all the tests ran. All 9 worked as intended and provided me with the results I needed to observe the program running smoothly. The user input tests were the most simple as they just required a simple loop. The operational info tests were a little more complicated as creating the file and having it accessible by ARGV took some time although the testing proved that it was working as intended. The final round of testing on the budget history was fair, with the tests showing that the JSON file was accessible and running well with the program. The test showed that it could facilitate the recording of new data entries along with recovering pre-existing data entries.
 
 
 Utilise developer tools to automate the building and testing of the application by:
