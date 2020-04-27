@@ -4,14 +4,14 @@
 
 ---
 
-### Statement of Purpose and Scope (1)
+### Statement of Purpose and Scope
 
 1. This app is designed to help the user plan a weekly budget and monitor their savings. The program will receive user input of their monetary income along with how much they’re spending per week on categorised necessities and wants. The program will then output strategies and solutions that aim to help the user sort out their spendings and increase saving where needed.
 2. The ever-present problem for the modern day person, particularly those studying with hefty workloads, is juggling their finances and housing situations. Many people struggle with finding the right balance of spending/saving and this can be largely attributed to not having the right resources/long term goals. The app aims to be a useful resource for the user to solve the issue of over-spending and provide an incentive for saving. I’m developing this application because I personally could use something like this each day and although it isn’t revolutionary it’s a simple concept that can be very practical.
 3. The target audience is the vast majority of our cohort, along with the general populace. The flexibility of the application is that it doesn’t cater to a specific financial demographic. The app can be used by anyone with a cash flow who plans to save, with short/long term goals accounted for.
 4. A member of the target audience will be asked by the program to enter various details on their spending. They will also have the option to enter a “goal” of theirs, for example a new phone ($800). The application will output a trajectory of their spending and give the user a realistic idea of how long it would take for them to save up and purchase this “goal” taking into account all their spending and intended savings. The app isn’t designed for a singular use either, and it can always be revisited if the users financial situation/saving goals change.
 
-### Key features (2)
+### Key features
 
 ## Feature 1: View budget history 
 
@@ -35,7 +35,7 @@ There's an if statement located in weekly_budget_planner.rb that asks if ARGV is
 This feature will print two questions to the screen, asking the user for their weekly income and weekly expenditure. The application will recieve the user's input and pass it through a loop to ensure the input was valid. As the questions can only be answered with a numerical response, anything other than a number will print a simple error message for the user and ask for the question to be answered again.
 
 
-### User Interaction and Experience (3)
+### User Interaction and Experience
 
 The user interacts in a smooth and simple fashion with the application. Once the application has been called there is an option for the user to pass the "-info" argument (ruby weekly_budget_planner.rb -info).
 
@@ -63,7 +63,7 @@ The error message for incorrectly entered input will remain consistent throughou
 
 Once the user enters a valid number the response will be saved and the next question will be printed to the screen. This if/elsif/else statement will continually loop until every question has been answered correctly.
 
-### Status updates (6)
+### Status updates
 
 ## Status update 1
 
