@@ -1,20 +1,21 @@
+require 'colorize'
 while true
-  puts "========================="
-  puts "Welcome to the main menu"
-  puts "========================="
-  sleep(1)
+  puts "=========================".colorize(:color => :light_blue)
+  puts "Welcome to the main menu".colorize(:color => :light_blue)
+  puts "=========================".colorize(:color => :light_blue)
+  sleep(2)
   puts
-  puts "There are four options within this menu. Please select one of the following:"
+  puts "There are four options within this menu. Please select one of the following:".colorize(:color => :green)
   puts
-  sleep(1)
-  puts "-New data entry- To enter a new budget entry please type 'new' or 'n' into the terminal"
+  sleep(2)
+  puts "-New data entry- To enter a new budget entry please type 'new' or 'n' into the terminal".colorize(:color => :green)
   puts
-  puts "-View goal trajectory- To calculate the amount of time to reach a savings goal please type 'goal' or 'g' into the terminal"
+  puts "-View goal trajectory- To calculate the amount of time to reach a savings goal please type 'goal' or 'g' into the terminal".colorize(:color => :green)
   puts
-  puts "-View budget history- To view your previous data entries please type 'view' or 'v' into the terminal"
+  puts "-View budget history- To view your previous data entries please type 'view' or 'v' into the terminal".colorize(:color => :green)
   puts
-  puts "Enter 'E' or 'exit' at any time to quit the application."
-  print    "● "
+  puts "Enter 'E' or 'exit' at any time to quit the application.".colorize(:color => :green)
+  print    "● ".colorize(:color => :light_blue)
 
   menu_input = gets.chomp.downcase
 
