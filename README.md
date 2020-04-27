@@ -6,10 +6,10 @@
 
 ### Statement of Purpose and Scope
 
-1. This app is designed to help the user plan a weekly budget and monitor their savings. The program will receive user input of their monetary income along with how much they’re spending per week on categorised necessities and wants. The program will then output strategies and solutions that aim to help the user sort out their spendings and increase saving where needed.
-2. The ever-present problem for the modern day person, particularly those studying with hefty workloads, is juggling their finances and housing situations. Many people struggle with finding the right balance of spending/saving and this can be largely attributed to not having the right resources/long term goals. The app aims to be a useful resource for the user to solve the issue of over-spending and provide an incentive for saving. I’m developing this application because I personally could use something like this each day and although it isn’t revolutionary it’s a simple concept that can be very practical.
-3. The target audience is the vast majority of our cohort, along with the general populace. The flexibility of the application is that it doesn’t cater to a specific financial demographic. The app can be used by anyone with a cash flow who plans to save, with short/long term goals accounted for.
-4. A member of the target audience will be asked by the program to enter various details on their spending. They will also have the option to enter a “goal” of theirs, for example a new phone ($800). The application will output a trajectory of their spending and give the user a realistic idea of how long it would take for them to save up and purchase this “goal” taking into account all their spending and intended savings. The app isn’t designed for a singular use either, and it can always be revisited if the users financial situation/saving goals change.
+This app is designed to help the user plan a weekly budget and monitor their savings. The program will receive user input of their monetary income along with how much they’re spending per week on categorised necessities and wants. The program will then output strategies and solutions that aim to help the user sort out their spendings and increase saving where needed.
+The ever-present problem for the modern day person, particularly those studying with hefty workloads, is juggling their finances and housing situations. Many people struggle with finding the right balance of spending/saving and this can be largely attributed to not having the right resources/long term goals. The app aims to be a useful resource for the user to solve the issue of over-spending and provide an incentive for saving. I’m developing this application because I personally could use something like this each day and although it isn’t revolutionary it’s a simple concept that can be very practical.
+The target audience is the vast majority of our cohort, along with the general populace. The flexibility of the application is that it doesn’t cater to a specific financial demographic. The app can be used by anyone with a cash flow who plans to save, with short/long term goals accounted for.
+A member of the target audience will be asked by the program to enter various details on their spending. They will also have the option to enter a “goal” of theirs, for example a new phone ($800). The application will output a trajectory of their spending and give the user a realistic idea of how long it would take for them to save up and purchase this “goal” taking into account all their spending and intended savings. The app isn’t designed for a singular use either, and it can always be revisited if the users financial situation/saving goals change.
 
 ### Key features
 
@@ -76,18 +76,6 @@ Prior to testing: This was a pretty obvious outcome for me that the code was goi
 
 Post test: I was happy with all the tests ran. All 9 worked as intended and provided me with the results I needed to observe the program running smoothly. The user input tests were the most simple as they just required a simple loop. The operational info tests were a little more complicated as creating the file and having it accessible by ARGV took some time although the testing proved that it was working as intended. The final round of testing on the budget history was fair, with the tests showing that the JSON file was accessible and running well with the program. The test showed that it could facilitate the recording of new data entries along with recovering pre-existing data entries.
 
-
-Utilise developer tools to automate the building and testing of the application by:
-- writing a script which runs the tests
-- writing a script which turns the application into an executable; OR
-- packaging the application for use as a module or dependency
-
-Design TWO tests which check that the application is running as expected.
-
-Each test should:
-- cover a different feature of the application
-- state what is being tested
-- provide at least TWO test cases and the expected results for each test case
 
 ### Executable
 ## Writing an executable/test running script
