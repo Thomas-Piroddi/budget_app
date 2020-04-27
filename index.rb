@@ -36,11 +36,21 @@ def create_new_account
     end
     saving = income_float - expenditure_float
     puts "Your weekly deficit/surplus was #{saving}"
+    puts "Please re-enter your name"
+    name = gets.chomp
+    hash = {name: "#{name}", saving: "#{saving}"}
+    puts 'Account created! Please log in.'
+   
+    file = File.read('filehistory.json')
 
-    json_hash = { font_size: 10, font_family: "Arial" }
-    hash = {name: Thomas, saving: 1,000,000}
-    # insert into json
-    break
+    working = JSON.parse(file)
+
+    working.push(hash)
+
+    File.open('filehistory.json', "w") do |f|
+        f.write(working.to_json)
+    end
+
   rescue ArgumentError => e
     puts "#{e.message}"
   end
@@ -118,7 +128,6 @@ end
 #=======================
 while true
   logged_in = login()
-  puts logged_in
 
   if logged_in
     print_welcome()
