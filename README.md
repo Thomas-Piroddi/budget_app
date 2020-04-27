@@ -63,6 +63,7 @@ The error message for incorrectly entered input will remain consistent throughou
 
 Once the user enters a valid number the response will be saved and the next question will be printed to the screen. This if/elsif/else statement will continually loop until every question has been answered correctly.
 
+### Status updates (6)
 
 ## Status update 1
 
@@ -75,6 +76,29 @@ Prior to testing: This was a pretty obvious outcome for me that the code was goi
 
 Post test:
 
+
+Utilise developer tools to automate the building and testing of the application by:
+- writing a script which runs the tests
+- writing a script which turns the application into an executable; OR
+- packaging the application for use as a module or dependency
+
+Design TWO tests which check that the application is running as expected.
+
+Each test should:
+- cover a different feature of the application
+- state what is being tested
+- provide at least TWO test cases and the expected results for each test case
+
+### Executable
+## Writing an executable/test running script
+
+The following steps will help you run this script as an executable within the terminal:
+1) Open the RB file and enter the following into the first line: #!/usr/bin/env ruby
+2) Open your local terminal, locate the program, enter the following and then press enter: ls -l budget_planner.rb
+You will notice -'s between characters indicating permissions.
+3) Enter the following and then press enter in order to change permissions and make the file executable: chmod 755 budget_planner.rb
+4) The file is now executable. The -'s we saw earlier should now be x's.
+5) You can now run the application by simply typing: ./budget_planner.rb
 
 ### Gems
 
