@@ -64,9 +64,31 @@ The error message for incorrectly entered input will remain consistent throughou
 Once the user enters a valid number the response will be saved and the next question will be printed to the screen. This if/elsif/else statement will continually loop until every question has been answered correctly.
 
 
-### Diagram
-![Diagram](./docs/Implementation_plan.png)
+### Implementation plan
+![Plan](./docs/implementation_plan.png)
 
+
+### Diagram
+![Diagram](./docs/Good_diagram.png)
+
+### Project management platform
+
+## Day 1
+![Trello 1](./docs/23:4:2020_Trello.png)
+
+![Trello 2](./docs/23:4:2020_Trello(night.png)
+
+## Day 2
+
+![Trello 3](./docs/24:4:2020_Trello.png)
+
+## Day 3
+
+![Trello 4](./docs/26:4:2020_Trello.png)
+
+## Day 4
+
+![Trello 5](./docs/27:4:2020_Trello.png)
 
 ### Status updates
 
