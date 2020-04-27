@@ -63,6 +63,10 @@ The error message for incorrectly entered input will remain consistent throughou
 
 Once the user enters a valid number the response will be saved and the next question will be printed to the screen. This if/elsif/else statement will continually loop until every question has been answered correctly.
 
+
+### Diagram
+![](./docs/implementation_plan.png)
+
 ### Status updates
 
 ## Status update 1
