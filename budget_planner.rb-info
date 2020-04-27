@@ -13,3 +13,9 @@
 # There is also an option to enter a new weekly budget, which will run you through the two inital questions again. This can be done if you wanted to enter a new set of data or create a hypothetical saving plan.
 
 # The final option will be to exit the application, which will quit the terminal. If you wish to re-use the application you will have to run it from the terminal again."
+
+# You must include:
+# - steps to install the application
+# - any dependencies required by the application to operate
+# - any system/hardware requirements
+# - a written explanation of the different features of the application

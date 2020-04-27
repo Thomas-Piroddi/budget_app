@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'colorize'
 require 'json' #gem install json
 
